@@ -52,3 +52,45 @@ Use the token in the Authorization tab → Type: Bearer Token
 Then test book CRUD operations
 
 
+---
+
+## ✅ CRUD Operations (Tested in Postman)
+
+Below are the screenshots of each CRUD operation tested via Postman.
+
+---
+
+### 📝 Signup  
+`POST /api/auth/signup`  
+![Signup](./screenshots/signup.png)
+
+---
+
+
+### 📚 Get All Books  
+`GET /api/books`  
+![Get Books](./screenshots/viewAllBooks.png)
+
+---
+
+### ➕ Add a Book  
+`POST /api/books`  
+![Add Book](./screenshots/post.png)
+
+---
+
+### 🧼 Update a Book  
+`PUT /api/books/:id`  
+> Make sure to pass the book ID and update fields in the body.  
+![Update Book](./screenshots/updateBook.png)
+
+---
+
+### 🗑️ Delete a Book  
+`DELETE /api/books/:id`  
+> Pass the correct book ID in the route.  
+![Delete Book](./screenshots/deleteBook.png)
+
+
+
+
