@@ -1,0 +1,4 @@
+This project is fully functional on the backend and is built to easily 
+integrate with a frontend interface, allowing for a smooth and responsive user experience.
+While I’ve currently tested all CRUD operations (Create, Read, Update, Delete) using Postman, 
+the backend is fully ready to support a beautiful, user-friendly webpage whenever needed.
